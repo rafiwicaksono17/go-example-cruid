@@ -1,0 +1,17 @@
+# Ignore build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore environment and editor files
+.env
+.DS_Store
+.vscode/
+
+# Ignore app debug binary
+app/__debug_bin.exe
+
+# Ignore distribution files
+dist/*
